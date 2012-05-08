@@ -1,0 +1,8 @@
+---
+layout: index
+---
+<table>
+{% for post in site.posts %}
+	<tr><td style='width:200px;'>{{ post.date | date:"%Y %B %d" }} </td><td> <a href="{{ post.url | remove:'/'}}">{{ post.title }}<a/></td></tr>
+{% endfor %}
+</table>
