@@ -19,4 +19,10 @@ I have uploaded the python code in [here](https://gist.github.com/2692786). If y
 
 When I showed this to [@Jaseeemabid](http://twitter.com/jaseemabid), he asked me to put this up on Google App Engine and start a service so that even non geeks could use this. I liked the idea but I am slightly busy(lazy) now. I'll do it when I am free or when I see that there is some demand for this! :)
 
+**Update**
+
+As a Redditor pointed out, this may not be the best way to do it. This was just a quick hack to get something done. The JSON could be processed in Python itself and files can be downloaded as well. I modified an old PHP script to get the JSON data and since the structure was relatively simple, I grepped the relevant information and fed it to wget as I prefer wget over any other tool for mass downloads. 
+
+And if you like this post, you should follow me on [twitter](http://twitter.com/swvist) :)
+
 
