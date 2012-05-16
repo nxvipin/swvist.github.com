@@ -21,7 +21,11 @@ When I showed this to [@Jaseeemabid](http://twitter.com/jaseemabid), he asked me
 
 **Update**
 
-As a Redditor pointed out, this may not be the best way to do it. This was just a quick hack to get something done. The JSON could be processed in Python itself and files can be downloaded as well. I modified an old PHP script to get the JSON data and since the structure was relatively simple, I grepped the relevant information and fed it to wget as I prefer wget over any other tool for mass downloads. 
+As few Redditors pointed out, this may not be the best way to do it. This was just a quick hack to get something done. The JSON could be processed in Python itself and files can be downloaded as well. I modified an old PHP script to get the JSON data and since the structure was relatively simple, I grepped the relevant information and fed it to wget as I prefer wget over any other tool for mass downloads. 
+
+**Update 2**
+
+Redditor [Bio Lazarus](http://www.reddit.com/user/BioLazarus) improved upon this and made an end to end version that does all of the above in one single python script and the code is available [here](https://gist.github.com/2705927).
 
 And if you like this post, you should follow me on [twitter](http://twitter.com/swvist) :)
 
