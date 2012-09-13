@@ -27,7 +27,11 @@ x&#8322; : (x&#8322;)\*K + 2 <= N and (x&#8322;+1)\*K + 1 > N and x&#8322; &#871
 S<sub>k</sub> = \[ K, K+K, 2K+K, ... , (x<sub>k</sub>)\*K+2 ];  
 x<sub>k</sub> : (x<sub>k</sub>)\*K + 2 <= N and (x<sub>k</sub>+1)\*K + 1 > N and x<sub>k</sub> &#8712; &#8484;
 
-Product of all the elements in each of the sets in calculated in a separate thread and all these calculations, theoretically, can be done in parallel. These sub-products are then multiplied together to get the final factorial. I am an Erlang beginner, and this could be very well a sub-optimal implementation. Comment and let me know, what you think of it and if you enjoyed reading this, you should follow me on [twitter](http://twitter.com/swvist).
+
+
+Product of all the elements in each of the sets in calculated in a separate thread and all these calculations, theoretically, can be done in parallel. These sub-products are then multiplied together to get the final factorial. The code is avialable [here](https://gist.github.com/3715155).
+
+I am an Erlang beginner, and this could be very well a sub-optimal implementation. Comment and let me know, what you think of it and if you enjoyed reading this, you should follow me on [twitter](http://twitter.com/swvist).
 
 The code is embedded below. To execute the code:
 
@@ -37,8 +41,4 @@ The code is embedded below. To execute the code:
 > 1> c(factorial).  
 > *Call the calculate function*  
 > 2> factorial:calculate(10000).
-
-
-<br>
-<script src="https://gist.github.com/3715155.js?file=factorial.erl"></script>
 
