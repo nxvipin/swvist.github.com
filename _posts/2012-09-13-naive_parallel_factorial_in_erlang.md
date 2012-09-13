@@ -36,7 +36,9 @@ The code is embedded below. To execute the code:
 > *Compile the code*  
 > 1> c(factorial).  
 > *Call the calculate function*  
-> 2> factorial:calculate(10000).  
+> 2> factorial:calculate(10000).
 
+
+<br>
 <script src="https://gist.github.com/3715155.js?file=factorial.erl"></script>
 
