@@ -106,7 +106,7 @@ p{
 .daterow{
 	width:200px;
 }
-.gist .gist-data{
+code{
 	font-size:15px;
-	line-height:20px;
+	line-height:18px;
 }
