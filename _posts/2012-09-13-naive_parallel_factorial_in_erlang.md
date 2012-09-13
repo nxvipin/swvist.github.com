@@ -40,4 +40,5 @@ I am an Erlang beginner, and this could be very well a sub-optimal implementatio
 > *Call the calculate function*  
 > 2> factorial:calculate(10000).
 
-<small><script src="https://gist.github.com/3715155.js"> </script></small>
+<br>
+<script src="https://gist.github.com/3715155.js"> </script>
