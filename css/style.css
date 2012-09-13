@@ -106,3 +106,7 @@ p{
 .daterow{
 	width:200px;
 }
+.gist{
+	margin-top: 16px;
+	line-height:10px;
+}
