@@ -33,8 +33,6 @@ Product of all the elements in each of the sets in calculated in a separate thre
 
 I am an Erlang beginner, and this could be very well a sub-optimal implementation. Comment and let me know, what you think of it and if you enjoyed reading this, you should follow me on [twitter](http://twitter.com/swvist).
 
-The code is embedded below. To execute the code:
-
 > *Start the Erlang shell*  
 > $ erl  
 > *Compile the code*  
@@ -42,4 +40,4 @@ The code is embedded below. To execute the code:
 > *Call the calculate function*  
 > 2> factorial:calculate(10000).
 
-<br><script src="https://gist.github.com/3715155.js?file=factorial.erl"></script>
+<script src="https://gist.github.com/3715155.js?file=factorial.erl"></script>
