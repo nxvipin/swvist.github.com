@@ -31,6 +31,8 @@ x<sub>k</sub> : (x<sub>k</sub>)\*K + 2 <= N and (x<sub>k</sub>+1)\*K + 1 > N and
 
 Product of all the elements in each of the sets in calculated in a separate thread and all these calculations, theoretically, can be done in parallel. These sub-products are then multiplied together to get the final factorial.
 
+\*Update\*: The algorithm described above works but is not the best way to find the factorial of a number and after some time on Google, I am convinced that [Luschny's](http://www.luschny.de/math/factorial/FastFactorialFunctions.htm) is *the* resource on the internet if you are looking for something faster and has a factorial somewhere in it.
+
 I am an Erlang beginner, and this could be very well a sub-optimal implementation. Comment and let me know, what you think of it and if you enjoyed reading this, you should follow me on [twitter](http://twitter.com/swvist).
 
 > *Start the Erlang shell*  
@@ -39,6 +41,7 @@ I am an Erlang beginner, and this could be very well a sub-optimal implementatio
 > 1> c(factorial).  
 > *Call the calculate function*  
 > 2> factorial:calculate(10000).
+
 
 <br>
 <code>
