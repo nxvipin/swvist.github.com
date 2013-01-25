@@ -22,7 +22,6 @@ html, body{
 	margin-top:29px;
 	width:29%;
 	height:70%;
-	background:#fff;
 	float:left;
 	height:100%;
 	position:fixed;
@@ -52,7 +51,7 @@ html, body{
 .tagline{
 	letter-spacing:2px;
 	font-size:17px;
-	line-height:12px;
+	line-height:20px;
 	font-weight:100;
 }
 .copyright{
@@ -87,9 +86,6 @@ a{
 	text-decoration:none;
 	color: #3B9F9F;
 }
-a:hover{
-	background:#eee;
-}
 .social{
 	word-spacing:3px;
 	letter-spacing:2px;
@@ -108,5 +104,9 @@ p{
 }
 code{
 	font-size:15px;
+	line-height:18px;
+}
+small{
+	font-size:17px;
 	line-height:18px;
 }
