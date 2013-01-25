@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Naive Parallel Factorial in Erlang"
-date: Thrusday, September 13 2012 21:05 PM
+date: Thursday, September 13 2012 21:05 PM
 comments: true
 ---
 
@@ -27,13 +27,18 @@ x&#8322; : (x&#8322;)\*K + 2 <= N and (x&#8322;+1)\*K + 1 > N and x&#8322; &#871
 S<sub>k</sub> = \[ K, K+K, 2K+K, ... , (x<sub>k</sub>)\*K+2 ];  
 x<sub>k</sub> : (x<sub>k</sub>)\*K + 2 <= N and (x<sub>k</sub>+1)\*K + 1 > N and x<sub>k</sub> &#8712; &#8484;
 
-
-
 Product of all the elements in each of the sets in calculated in a separate thread and all these calculations, theoretically, can be done in parallel. These sub-products are then multiplied together to get the final factorial.
+
+This is how it looks like: 
+![Parallel Factorial](images/factorial.png)
 
 \*Update\*: The algorithm described above works but is not the best way to find the factorial of a number and after some time on Google, I am convinced that [Luschny's](http://www.luschny.de/math/factorial/FastFactorialFunctions.htm) is *the* resource on the internet if you are looking for something faster and has a factorial somewhere in it.
 
-I am an Erlang beginner, and this could be very well a sub-optimal implementation. Comment and let me know, what you think of it and if you enjoyed reading this, you should follow me on [twitter](http://twitter.com/swvist).
+Also, this may not be the best language to implement this and this may not the best problem to parallelize. Nonetheless, if you run the code given below you'll realize that this one makes a pretty good example of the limitations of parallelism as given by [Amdahl's Law](http://en.wikipedia.org/wiki/Amdahl's_law):
+
+> The potential speedup gained by parallel execution of a program is limited by the portion that can be parallelized.
+
+I am an Erlang beginner, and this could be very well a sub-optimal implementation. Do let me know, what you think of it and if you enjoyed reading this, you should follow me on [twitter](http://twitter.com/swvist).
 
 > *Start the Erlang shell*  
 > $ erl  
