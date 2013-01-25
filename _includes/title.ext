@@ -1,7 +1,10 @@
 <div class='topbar'></div>
 <div class='sidebar'>
 	<div class='content'>
-		<span class='headline'><a href='index.html' style='color:black;'>Hi, I am Vipin.</a></span><br/>
-		<span class='tagline'>I write code. I build stuff.<br />I occasionally <a href='http://twitter.com/swvist'>tweet</a>.<br />I go by the name <a href='http://www.google.com/search?q="swvist"'>swvist</a> on the Internet.</span><br /><br />
+		<span class='headline'><a href='index.html' style='color:black;'>Hi, I am Vipin</a></span><br/>
+		<span class='tagline'><br>
+		<a href='/about.html'>About Me</a><br>
+		<a href='/advocacy.html'>Advocacy</a><br> 
+		<a href='http://swvist.github.com/feeds/'>Feeds</a><br>
 	</div>
 </div>
