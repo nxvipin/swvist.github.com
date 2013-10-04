@@ -22,3 +22,5 @@ primitives and the functional way of things is
 Back in college we used to write code because it was something we enjoyed. Now
 there is not much that I write, apart from what I do at my day job, and this is
 an exercise in bringing those glory days back.
+
+Now read about this in [his words](http://jaseemabid.github.io/10-05-2013/hacker-at-heart.html).
